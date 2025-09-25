@@ -21,16 +21,6 @@ Rollback is the process of reverting to a previous stable version of software if
 
 ## How this assignment demonstrates DevOps principles
 
-1. **Collaboration and automation** – I created files, a script, and version control steps that mimic real-world DevOps practices.  
-2. **CI/CD concepts** – The script automates checks like system resources and file listings, which reflect the automation mindset in CI/CD pipelines.  
-3. **Containerization mindset** – By keeping all tasks self-contained in the `exam` directory, it mirrors containerization’s principle of isolating and packaging.  
-4. **Rollback principle** – Using Git branching, I can rollback to a previous commit if I make a mistake, just like rolling back software in production.  
-5. **Version control integration** – GitHub repo setup demonstrates how DevOps relies on Git for tracking changes, collaboration, and branching strategies.
-
-
-
-
-
 I created Readme.md in the exam directory and added definitions for DevOps, CI, CD, containerization, and rollback.
 This gave me a clear reference for the concepts while doing the practical tasks.
 
