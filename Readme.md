@@ -19,80 +19,58 @@ Rollback is the process of reverting to a previous stable version of software if
 
 ---
 
-## How this assignment demonstrates DevOps principles
+## How this assignment demonstrates DevOps principles and steps 
 
-I created Readme.md in the exam directory and added definitions for DevOps, CI, CD, containerization, and rollback.
-This gave me a clear reference for the concepts while doing the practical tasks.
+Step 1: Create Directory
 
-Create and Write script.sh
-To practice automation, I created a shell script:
+mkdir exam
+cd exam
+
+Created a dedicated folder called exam to organize all assignment files.
+
+
+Step 2: Create and Write Readme.md
+
+Created Readme.md and added definitions for DevOps, CI, CD, containerization, and rollback.
+
+
+Step 3: Create and Write script.sh
 
 nano script.sh
 
-Inside, I added commands to:
-Show the current directory (pwd)
-Show the current user (whoami)
-Display memory resources (free -h)
+Added commands to:
+Show current directory (pwd)
+Show current user (whoami)
+Display memory (free -h)
 Display disk space (df -h)
 List all files (ls -al)
 Display the script itself (cat script.sh)
 
-The script looked like this:
-
-#!/bin/bash
-
-echo "Current Directory:"
-pwd
-
-echo -e "\nCurrent User:"
-whoami
-
-echo -e "\nMemory Resources Available:"
-free -h
-
-echo -e "\nDisk Space Available:"
-df -h
-
-echo -e "\nFiles in Current Directory:"
-ls -al
-
-echo -e "\nContents of script.sh:"
-cat script.sh
-
-
-
-using chmod to allow the script to run:
+Step 4: Make the Script Executable
 
 chmod +x script.sh
 
+Adds permission for the script to run.
 
-Running the script and saving the output to script.log:
+
+Step 5: Execute the Script and Save Output
 
 ./script.sh > script.log
 
-This ensured I had a record of all results, like logging in CI/CD pipelines.
+Runs the script and redirects output to script.log.
 
-
-Git and GitHub Workflow:
-
-To practice version control and collaboration:
-
-Initialized Git in the exam folder:
+Step 6: Git and GitHub Workflow
 
 git init
 git remote add origin https://github.com/PurvaShinde21/devops-test
-
-Created a new branch for this assignment:
-
 git checkout -b feature
-
-Added and committed all files:
-
 git add Readme.md script.sh script.log
 git commit -m "Add DevOps assignment files"
-
-Pushed the branch to GitHub:
-
 git push origin feature
 
-Now, my GitHub repository contains the feature branch with all files, while main remains clean.
+Initializes version control for tracking changes.
+Creates a separate branch feature for the assignment, keeping main clean.
+Stages, commits, and pushes files to GitHub.
+
+Step 7: Connecting to DevOps Principles
+Added a section in Readme.md explaining how automation, logging, version control, rollback, CI/CD mindset, and containerization are demonstrated through this assignment.
