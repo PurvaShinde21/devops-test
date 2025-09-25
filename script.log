@@ -1,0 +1,57 @@
+Current Directory:
+/home/purva/exam
+
+Current User:
+purva
+
+Memory Resources Available:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       488Mi       6.7Gi       3.8Mi       529Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+Disk Space Available:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         427G  158G  270G  37% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            3.8G   76K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  540K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             427G  158G  270G  37% /mnt/c
+D:\              49G  173M   49G   1% /mnt/d
+tmpfs           777M   20K  777M   1% /run/user/1000
+
+Files in Current Directory:
+total 20
+drwxr-xr-x 2 purva purva 4096 Sep 25 05:25 .
+drwxr-x--- 7 purva purva 4096 Sep 25 05:21 ..
+-rw-r--r-- 1 purva purva 2013 Sep 25 05:22 Readme.md
+-rw-r--r-- 1 purva purva 1169 Sep 25 05:25 script.log
+-rwxr-xr-x 1 purva purva  265 Sep 25 05:24 script.sh
+
+Contents of script.sh:
+#!/bin/bash
+
+echo "Current Directory:"
+pwd
+
+echo -e "\nCurrent User:"
+whoami
+
+echo -e "\nMemory Resources Available:"
+free -h
+
+echo -e "\nDisk Space Available:"
+df -h
+
+echo -e "\nFiles in Current Directory:"
+ls -al
+
+echo -e "\nContents of script.sh:"
+cat script.sh
