@@ -28,7 +28,7 @@ Developing `script.sh` automated multiple system tasks, such as checking the cur
 Making the script executable ensured the workflow was repeatable and reliable, highlighting the DevOps focus on automation and consistency. 
 Using Git and GitHub to initialize version control, create a separate `feature` branch, commit files, and push them to a remote repository demonstrated collaboration, version tracking, and rollback readiness. 
 
-Each of these actions mirrors real-world DevOps practices, where automated scripts, continuous integration, continuous delivery, logging, version control, and safe branching strategies work together to create efficient, reliable, and maintainable software development and deployment pipelines. Overall, this assignment shows that even small, structured tasks—when performed thoughtfully—can embody key DevOps principles such as automation, repeatability, traceability, collaboration, and continuous improvement.
+Each of these actions mirrors real-world DevOps practices, where automated scripts, continuous integration, continuous delivery, logging, version control, and safe branching strategies work together to create efficient, reliable, and maintainable software development and deployment pipelines. Overall, this assignment shows that even small, structured tasks when performed thoughtfully can embody key DevOps principles such as automation, repeatability, traceability, collaboration, and continuous improvement.
 
 
 Step 1: Create Directory
